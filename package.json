@@ -1,0 +1,34 @@
+{
+  "name": "guest-portal",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "cross-env ENV_TYPE=production API_VERSION=1.0 nuxt build",
+    "local": "nuxt dev",
+    "dev": "dotenv -e .env.test nuxt dev",
+    "start": "dotenv -e .env.production nuxt start",
+    "test": "cross-env ENV_TYPE=test API_VERSION=1.0 nuxt build",
+    "start-test": "dotenv -e .env.test nuxt start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.1.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@vueuse/core": "^13.9.0",
+    "cross-env": "^10.1.0",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.3",
+    "html2canvas": "^1.4.1",
+    "libphonenumber-js": "^1.12.24",
+    "nuxt": "^4.1.2",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "dotenv-cli": "^11.0.0"
+  }
+}

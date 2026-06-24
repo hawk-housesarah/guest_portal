@@ -1,0 +1,379 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Thin.woff2') format('woff2'),
+    url('fonts/Pretendard-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-ExtraLight.woff2') format('woff2'),
+    url('fonts/Pretendard-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Light.woff2') format('woff2'),
+    url('fonts/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Regular.woff2') format('woff2'),
+    url('fonts/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Medium.woff2') format('woff2'),
+    url('fonts/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-SemiBold.woff2') format('woff2'),
+    url('fonts/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Bold.woff2') format('woff2'),
+    url('fonts/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-ExtraBold.woff2') format('woff2'),
+    url('fonts/Pretendard-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard-Black.woff2') format('woff2'),
+    url('fonts/Pretendard-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-Light.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-LightItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-Italic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-MediumItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-BoldItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('fonts/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2'),
+    url('fonts/PlusJakartaSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --max-width: 1170px;
+  --content-width: 775px;
+  --search-box-width: 970px;
+  --login-form-width: 370px;
+  --body-color: #fff7de;
+  --light-color: #fff7de;
+  --heavy-color: #fbedbf;
+  --focus-color: #ffcd76;
+  --dark-color: #130D0E;
+  --gray-color: #767676;
+  --primary-black-700: #130D0E;
+  --brand-web-main: #fff7de;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: var(--body-color);
+}
+
+button {
+  @apply font-ui;
+}
+
+.--wsh-max-width {
+  max-width: var(--max-width);
+}
+
+.--wsh-content-width {
+  max-width: var(--content-width);
+}
+
+.--wsh-detail-width {
+  max-width: var(--form-width);
+}
+
+.--wsh-login-form-width {
+  max-width: var(--login-form-width);
+}
+
+.--wsh-search-box-width {
+  max-width: var(--search-box-width);
+}
+
+.--wsh-document-padding {
+  @apply px-4 md:px-8;
+}
+
+.--wsh-light-bg {
+  background-color: var(--light-color);
+}
+
+.--wsh-heavy-bg {
+  background-color: var(--heavy-color);
+}
+
+.--wsh-focus-bg {
+  background-color: var(--focus-color);
+}
+
+.--wsh-dark-bg {
+  background-color: var(--dark-color);
+}
+
+.--wsh-light-text {
+  color: var(--light-color);
+}
+
+.--wsh-dark-text {
+  color: var(--dark-color);
+}
+
+.--wsh-dark-border {
+  border-color: var(--dark-color);
+}
+
+.--wsh-gray-border {
+  border-color: var(--gray-color);
+}
+
+.--wsh-gray-text {
+  color: var(--gray-color);
+}
+
+.--wsh-bg-body {
+  background-color: var(--body-color);
+}
+
+@layer components {
+  .--wsh-divider {
+    @apply border-t w-full;
+  }
+
+  .--wsh-main-button {
+    @apply bg-primary-black-700 text-white px-6 py-3 rounded-lg font-bold hover:text-brand-web-point transition;
+  }
+
+  .--wsh-gray-button {
+    @apply bg-[#767676] text-white px-6 py-3 rounded-lg font-bold hover:text-brand-web-point transition;
+  }
+
+  .--wsh-checkbox {
+    @apply w-5 h-5 border border-black bg-transparent appearance-none flex items-center justify-center;
+  }
+
+  .--wsh-checkbox:checked {
+    @apply bg-black relative;
+  }
+
+  .--wsh-checkbox:checked::after {
+    content: "";
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='9' viewBox='0 0 16 9' fill='none'%3E%3Cpath d='M8 9C7.64465 9 7.28931 8.87469 7.00877 8.60617L0.40678 2.28692C-0.135593 1.76778 -0.135593 0.908503 0.40678 0.389358C0.949153 -0.129786 1.84687 -0.129786 2.38925 0.389358L8 5.75982L13.6108 0.389358C14.1531 -0.129786 15.0508 -0.129786 15.5932 0.389358C16.1356 0.908503 16.1356 1.76778 15.5932 2.28692L8.99123 8.60617C8.7107 8.87469 8.35535 9 8 9Z' fill='%23FFF7DE'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .--wsh-counting-button {
+    @apply w-7 h-7 flex items-center justify-center bg-white rounded-full border border-transparent hover:border-black transition-all relative;
+  }
+
+  .--wsh-minus-button::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAECAYAAAC6Jt6KAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAoSURBVHgBlcuxCQAACANBI7bauD+6qWaFPHx56KwxIRCcAtzEgq8CHmJ3AqOIPMBqAAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply text-black text-xl font-bold;
+  }
+
+  .--wsh-plus-button::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACTSURBVHgB1VLbCYQwENw5/I0RcgVYwrV0lV0JV4KWYAfGAgTRAsb4QCTuh/ghOJCPzc6E2dlAFDhj/wL5zAVZtkP/jTmJJoRIRjJfq1zjvOQi7hfCmfR3nINTMNladKFfRboOLrW1bEGchr9sNQEl2IDfXzKyishq6Hv1tbexRZidy7GFxnnQHtW/SrDZAuO0xyNG79wmzh+nxZQAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply text-black text-xl font-bold;
+  }
+}
+
+.--wsh-button-ico {
+  width: 1.375em;
+  height: 1.375em;
+}
+
+.--wsh-font-sans {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.--wsh-bg-point-color {
+  background-color: #18ae83;
+}

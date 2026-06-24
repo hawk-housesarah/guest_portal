@@ -1,0 +1,95 @@
+{
+  "test": "테스트",
+  "common": {
+    "email_invalid": "이메일 형식이 올바르지 않습니다."
+  },
+  "checkin_form": {
+    "name": "예약자 성함",
+    "name_placeholder": "예약 시 등록하신 이름을 정확히 기입해 주세요.",
+    "name_required": "예약 시 등록하신 이름을 정확히 기입해 주세요.",
+    "name_error": "성함을 다시 확인해 주세요.",
+    "period": "머무는 날짜",
+    "period_placeholder": "체크인 - 체크아웃",
+    "period_required": "날짜를 선택해 주세요.",
+    "period_error": "날짜를 다시 확인해 주세요.",
+    "error_already": "이미 체크인되었습니다.",
+    "next_btn": "다음",
+    "fail_exceed": {
+      "message": "오류 횟수가 <span style=\"color: #D12600; font-weight: 600;\">5회를 초과</span>했어요.",
+      "desc": "현재 보고 계신 지점은 <span style=\"font-weight: 600;\">'{branch}'</span>입니다.<br/>예약하신 지점을 다시 한 번 확인해주세요.",
+      "tel": "+82 10 0000 0000",
+      "messenger_btn": "문의하기",
+      "back_btn": "돌아가기"
+    },
+    "already": {
+      "message": "체크인이 이미 완료된 객실입니다.",
+      "desc": "게스트의 정보 보호와 안전을 위해 객실 정보는 최초 1회만 제공됩니다.<br/>체크인 시 기재하신 이메일을 통해<br/>객실 정보를 확인해 주세요.",
+      "back_btn": "돌아가기"
+    },
+    "double": {
+      "message": "동일한 예약 정보가 중복으로<br/>확인되었습니다.",
+      "desc": "정확한 객실 안내를 위해<br/>아래 연락처 또는 메신저로 문의해 주세요.<br/><br/>{tel}",
+      "messenger_btn": "메신저 상담하기",
+      "back_btn": "돌아가기"
+    }
+  },
+  "info_input": {
+    "email": "이메일 주소",
+    "email_placeholder": "이메일을 입력해 주세요.",
+    "email_required": "이메일을 입력해 주세요.",
+    "email_auth_required": "이메일 인증을 진행해 주세요.",
+    "email_verify_required": "이메일 인증 확인을 진행해 주세요.",
+    "email_authcode_placeholder": "인증번호를 입력해 주세요.",
+    "email_authcode_required": "인증번호를 입력해 주세요.",
+    "email_authcode_invalid": "인증번호를 다시 확인해 주세요.",
+    "email_send_again": "다시 보내기",
+    "email_verify_msg": "인증번호를 받지 못하셨나요?",
+    "email_verify_help": "인증 메일이 보이지 않는다면 스팸함을 확인해 주세요.",
+    "email_verify_timeout": "5분 이내 메일이 도착하지 않으면 다른 이메일로 다시 인증해 주세요.",
+    "how": "위코스테이는 어떻게 알고 오셨나요? (선택사항)",
+    "how_select": "선택하기",
+    "agree_required": "(필수) 게스트의 정보 보호와 안전을 위해 객실 정보는 최초 1회만 제공되며, 이후에는 이메일을 통해 재확인이 가능합니다.",
+    "agree_option": "(선택) 마케팅 정보 수신에 동의하시면, 위코스테이의 소식과 할인 혜택을 가장 먼저 받아보실 수 있어요.",
+    "button": {
+      "send": "인증",
+      "sent": "발송",
+      "verified": "인증완료",
+      "verify": "인증확인",
+      "resend": "재전송",
+      "next": "다음"
+    },
+    "error": {
+      "message": "문제가 발생했어요.<br/>첫 페이지로 이동합니다.",
+      "back_btn": "돌아가기"
+    }
+  },
+  "room_info": {
+    "title": "{name} 님의 객실 정보",
+    "room_no": "객실번호",
+    "password": "비밀번호",
+    "save_alt": "이미지 저장하기",
+    "text1": "게스트의 정보 보호와 안전을 위해 객실 정보는 최초 1회만 제공됩니다. 이미지 저장을 하시거나, 이메일을 통해 재확인 부탁드립니다.",
+    "text2": "객실 정보는 체크인 당일 11:00부터 확인할 수 있으며, 객실 비밀번호는 체크인 시간인 16:00부터 자동 적용됩니다.",
+    "text3": "얼리 체크인과 레이트 체크아웃은 시간당 10,000원의 추가 요금이 있습니다. 이용 가능 여부는 객실 상황에 따라 달라질 수 있으니, 사무실로 문의해 주세요.",
+    "save_img_desc": "안드로이드는 갤러리, ios는 파일 앱을 확인해 주세요."
+  },
+  "login_form": {
+    "name": "예약자 성함",
+    "name_placeholder": "예약 시 등록하신 이름을 정확히 기입해 주세요.",
+    "name_required": "예약 시 등록하신 이름을 정확히 기입해 주세요.",
+    "name_error": "성함을 다시 확인해 주세요.",
+    "period": "머무는 날짜",
+    "period_placeholder": "체크인 - 체크아웃",
+    "period_required": "날짜를 선택해 주세요.",
+    "period_error": "날짜를 다시 확인해 주세요.",
+    "error_already": "이미 체크인되었습니다.",
+    "next_btn": "다음"
+  },
+  "storage_info": {
+    "title": "짐 보관소 비밀번호",
+    "today_password": "오늘 비밀번호",
+    "tomorrow_password": "내일 비밀번호",
+    "text": "짐 보관소 비밀번호는 당일 자정까지 유효하며, 매일 변경됨을 안내드립니다.",
+    "ok_btn": "확인"
+  }
+}

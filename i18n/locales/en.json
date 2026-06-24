@@ -1,0 +1,95 @@
+{
+  "test": "test",
+  "common": {
+    "email_invalid": "The email format is invalid."
+  },
+  "checkin_form": {
+    "name": "Guest Name",
+    "name_placeholder": "Please enter the exact name used at booking.",
+    "name_required": "Please enter the exact name used at booking.",
+    "name_error": "Please double-check your name.",
+    "period": "Stay Dates",
+    "period_placeholder": "Check-in - Check-out",
+    "period_required": "Please select a date.",
+    "period_error": "Please double-check the dates.",
+    "error_already": "You have already checked in.",
+    "next_btn": "Next",
+    "fail_exceed": {
+      "message": "<span style=\"color: #D12600; font-weight: 600;\">Too many attempts.</span>",
+      "desc": "You are viewing the <span style=\"font-weight: 600;\">{branch} Branch</span>.<br/>Please check your reservation location.",
+      "tel": "+82 10 0000 0000",
+      "messenger_btn": "Contact us",
+      "back_btn": "Go back"
+    },
+    "already": {
+      "message": "Check-in has already been completed.",
+      "desc": "For guest protection and safety, room details are provided only once initially, and can be accessed via email.",
+      "back_btn": "Go Back"
+    },
+    "double": {
+      "message": "Duplicate reservation details<br/>have been detected.",
+      "desc": "For accurate room information, please<br/>contact us via the details below or<br/>through our messenger.<br/><br/>{tel}",
+      "messenger_btn": "Message Us",
+      "back_btn": "Go Back"
+    }
+  },
+  "info_input": {
+    "email": "Email Address",
+    "email_placeholder": "Enter your email address.",
+    "email_required": "Please enter your email address.",
+    "email_auth_required": "Verify your email to continue.",
+    "email_verify_required": "Please complete your email verification.",
+    "email_authcode_placeholder": "Enter the verification code.",
+    "email_authcode_required": "Please enter the verification code.",
+    "email_authcode_invalid": "Provided verification code is invalid.",
+    "email_send_again": "Send Again",
+    "email_verify_msg": "Didn't receive the verification code?",
+    "email_verify_help": "If you don't see the verification email, check your spam folder.",
+    "email_verify_timeout": "If it doesn't arrive within 5 minutes, try verifying with a different email address.",
+    "how": "How did you hear about WECO STAY? (optional)",
+    "how_select": "Select",
+    "agree_required": "(Required) For guest protection and safety, room details are provided only once initially, and can be accessed later via email.",
+    "agree_option": "(Optional) By agreeing to receive marketing information, you'll be the first to get WECO STAY news and special offers.",
+    "button": {
+      "send": "Send",
+      "sent": "Sent",
+      "verified": "Verified",
+      "verify": "Verify",
+      "resend": "Resend",
+      "next": "Next"
+    },
+    "error": {
+      "message": "Something went wrong.<br/>Taking you back to the first page.",
+      "back_btn": "Go Back"
+    }
+  },
+  "room_info": {
+    "title": "{name}'s<br/> Room Information",
+    "room_no": "Room No.",
+    "password": "Password",
+    "save_alt": "Save as Image",
+    "text1": "For guest protection and safety, room information is provided only once. Please save the image or re-check via email.",
+    "text2": "Room information is available from 11:00 AM on the check-in date, and the room password will be activated automatically from 4:00 PM (check-in time).",
+    "text3": "Early check-in and late check-out are available at an additional cost of 10,000 KRW per hour. Availability depends on room conditions, so please contact the office for inquiries.",
+    "save_img_desc": "Check the Gallery app on Android or the Files app on iOS."
+  },
+  "login_form": {
+    "name": "Guest Name",
+    "name_placeholder": "Please enter the exact name used at booking.",
+    "name_required": "Please enter the exact name used at booking.",
+    "name_error": "Please double-check your name.",
+    "period": "Stay Dates",
+    "period_placeholder": "Check-in - Check-out",
+    "period_required": "Please select a date.",
+    "period_error": "Please double-check the dates.",
+    "error_already": "You have already checked in.",
+    "next_btn": "Next"
+  },
+  "storage_info": {
+    "title": "Luggage Storage Password",
+    "today_password": "Today's Password",
+    "tomorrow_password": "Tomorrow's Password",
+    "text": "The luggage storage password is valid until midnight of the same day and changes daily.",
+    "ok_btn": "OK"
+  }
+}
